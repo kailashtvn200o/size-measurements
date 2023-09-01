@@ -1,0 +1,263 @@
+/* Footer.css */
+
+/* Styles for the entire footer */
+.footer {
+    background: #f8f4f1;
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  
+  .Logo {
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .Title {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 94%;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the logo and title */
+  .footer-logo {
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+  .font-alt {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the navigation links */
+  .first-footer-links {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .second-footer-links {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .footer-links li {
+    display: flex;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Styles for the app download links */
+  .footer-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-download p{
+    color: black;
+  }
+  
+  .download-links a {
+    margin-right: 15px;
+  }
+  
+  /* Styles for the divider line */
+  .divider-line {
+    margin: 15px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Styles for the copyright information */
+  .footer-copy {
+    display: flex;
+    text-align: left;
+  }
+  
+  .footer-copy p{
+    color: black;
+  }
+  
+  /* Styles for the privacy and terms links */
+  .footer-links {
+    height: 100px;
+    justify-content: space-around;
+    width: 47%;
+    display: flex;
+  }
+  
+  .footer-links2 {
+    margin-left: 6px;
+    display: flex;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-links2 a {
+    text-decoration: none;
+    color: black;
+    margin-top: 16px;
+  }
+  
+  /* Styles for the social media icons */
+  .social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons li a{
+    color: black;
+  }
+  
+  
+  .last-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Adjust styles for different screen sizes if needed */
+  /*Media queries */
+  @media only screen and (max-width:1215px) {
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 94%;
+      margin: 0 auto;
+    }
+  
+    .footer-download {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .download-links {
+      display: flex;
+    }
+  
+    .footer-links {
+      height: 100px;
+      justify-content: space-around;
+      width: 110%;
+      display: flex;
+    }
+  
+    .footer-links .footer-download {
+      display: flex;
+    }
+  
+  }
+  
+  @media only screen and (max-width:600px) {
+  
+    .footer-logo {
+      margin-bottom: 23px;
+      margin-top: -50px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .footer-download {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 33px;
+    }
+  
+    .footer {
+      background: #f8f4f1;
+      color: white;
+      padding: 60px 0;
+    }
+  
+    .footer-content {
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 94%;
+      margin: 0 auto;
+    }
+  
+    .footer-links {
+      margin-bottom: 23px;
+      justify-content: space-around;
+      width: 100%;
+      display: flex;
+    }
+  
+    .download-links {
+      display: flex;
+      width: 100%;
+    }
+  
+    .download-links a img {
+      width: 100%;
+    }
+  
+    .footer-copy {
+      font-size: 11px;
+      display: flex;
+      margin-left: 10px;
+    }
+  
+    .footer-links2 a {
+      margin-right: -44px;
+      text-decoration: none;
+      color: black;
+      height: 20px;
+      width: 85px;
+      display: flex;
+    }
+  
+    .footer-links2 {
+      display: flex;
+      height: 20px;
+    }
+  
+    .last-links {
+      display: block;
+    }
+  
+    .social-icons {
+      list-style: none;
+      display: flex;
+      margin-left: 60px;
+      justify-content: flex-start;
+    }
+     
+    .social-icons li a{
+      color: black;
+    }
+  }

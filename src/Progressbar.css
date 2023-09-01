@@ -1,0 +1,202 @@
+/* Styling for the volume container */
+.volume-container {
+    color: black;
+    position: relative;
+    margin-left: 69px;
+    margin-top: 61px;
+
+  }
+  
+  /* Styling for the volume slider */
+  .volume-slider1{
+    width: 294%;
+    appearance: none;
+    height: 3px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 5px;
+    position: absolute;
+    left: -2%;
+    top: -5px;
+  }
+  .text1{
+    color: black;
+    margin-top: -41px;
+    margin-left: -41px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .volume-slider2{
+    width: 296%;
+    appearance: none;
+    height: 3px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    border-radius: 5px;
+    position: absolute;
+    left: -3px;
+    top: 72px;
+}
+.text2{
+    color: black;
+    margin-top: 41px;
+    margin-left: -41px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .volume-slider3{
+    width: 296%;
+    appearance: none;
+    height: 3px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-top: 54px;
+    margin-left: -2px;
+
+  }
+  .text3{
+    color: black;
+    margin-top: -40px;
+    margin-left: -41px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  
+  .volume-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background:black;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  /* Style for the volume label */
+  .volume-label1{
+    margin-top: 3px;
+    text-align: center;
+    color: black;
+    margin-left: 297%;
+  }
+  .volume-label2{
+    margin-top: -16px;
+    text-align: center;
+    color: black;
+    margin-left: 297%;
+  }
+  .volume-label3{
+    margin-top: -5px;
+    text-align: center;
+    color: black;
+    margin-left: 298%;
+  }
+  @media(max-width:600px){
+    /* Styling for the volume container */
+.volume-container {
+  color: black;
+  position: relative;
+  margin-left: 69px;
+  margin-top: 61px;
+
+}
+
+/* Styling for the volume slider */
+.volume-slider1{
+  width: 138%;
+  appearance: none;
+  height: 3px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 5px;
+  position: absolute;
+  left: -24%;
+  top: -5px;
+}
+.text1{
+  color: black;
+  margin-top: -41px;
+  margin-left: -41px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.volume-slider2{
+  width: 138%;
+  appearance: none;
+  height: 3px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  position: absolute;
+  left: -24px;
+  top: 72px;
+}
+.text2{
+  color: black;
+  margin-top: 41px;
+  margin-left: -41px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.volume-slider3{
+  width: 139%;
+  appearance: none;
+  height: 3px;
+  background: black;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 5px;
+  margin-top: 54px;
+  margin-left: -24px;
+
+}
+.text3{
+  color: black;
+  margin-top: -40px;
+  margin-left: -41px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background:black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/* Style for the volume label */
+.volume-label1{
+  margin-top: 7px;
+  text-align: center;
+  color: black;
+  margin-left: 141%;
+}
+.volume-label2{
+  margin-top: -7px;
+  text-align: center;
+  color: black;
+  margin-left: 141%;
+}
+.volume-label3{
+  margin-top: 0px;
+  text-align: center;
+  color: black;
+  margin-left: 141%;
+}
+
+  }
+  
